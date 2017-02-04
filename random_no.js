@@ -1,4 +1,4 @@
-var number = prompt("Please enter a number between 1 and 10", "");
+var number = prompt("Please enter a number between 1 and 10");
 var random_number = Math.floor((Math.random() * 10) + 1);
 
 if (number >= 1 && number <= 10) {
